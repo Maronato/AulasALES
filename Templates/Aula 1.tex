@@ -1,0 +1,136 @@
+% Load environment
+\input{Base/env.tex}
+
+% Begin document
+\begin{document}\pagestyle{empty}
+% {Nome da Aula}{Professores}{Matéria da Aula}{data}
+\cabeca{Aula 1}{Maronato}{Funções}{21/12/2016}
+\newcounter{problema}
+
+
+\begin{prob}
+Sendo $f\left( x\right) = x^{2}-x$ e $g\left( x\right) = x+3$, calcule:
+\begin{multicols}{2}
+\begin{enumerate}[(a)]
+\item    $f\left( g\left( x\right) \right) $
+\item    $g\left( f\left( x\right) \right) $
+\end{enumerate}
+\end{multicols}
+\end{prob}
+
+\begin{prob}
+Sendo $f\left( x\right) = x^{2}$, calcule $\dfrac{f\left( x+h\right) -f\left( x\right) }{h}$
+\end{prob}
+
+\begin{prob}
+Dado o gr\'{a}fico de $f\left( x\right)$, calcule $f\left( 20\right)$
+
+
+\begin{tikzpicture}
+        \begin{axis}[ xmin=-4,xmax=1, xlabel=$x$, ylabel=$f\left( x\right)$,grid=both, mark=none ]
+    \addplot {2*x+4};
+  \end{axis}
+\end{tikzpicture}
+\end{prob}
+
+\begin{prob}
+D\^{e} o conjunto imagem das seguintes fun\c{c}\~{o}es:
+\begin{multicols}{3}
+\begin{enumerate}[(a)]
+\item    $f\left( x\right) =x^{2}-4$
+\item    $f\left( x\right) =x^{2}-5x+6$
+\item    $f\left( x\right) =x^{2}+x+1$
+\end{enumerate}
+\end{multicols}
+\end{prob}
+
+\begin{prob}
+Dada a fun\c{c}\~{a}o $g:\{ -1;2;4;5\} \rightarrow \{-7;-4;-1;0;4;8;17\}$, definida pela regra $g(x)=x^{2}-8$, indique o dom\'{\i}nio, o contradom\'{\i}nio e a imagem dessa fun\c{c}\~{a}o.
+\end{prob}
+
+\begin{prob}
+Dado que o gr\'{a}fico da fun\c{c}\~{a}o $f\left( x\right) =\dfrac{x^{2}-3}{x+a}$ passa pelo ponto $(3;3)$, calcule o valor de $a$
+\end{prob}
+
+\begin{prob}
+Uma fun\c{c}\~{a}o $f$ de vari\'{a}vel real satisfaz a condi\c{c}\~{a}o $f\left( x + 1\right) = f\left( x\right) + f\left( 1\right) $, qualquer que seja o valor da vari\'{a}vel $x$. Sabendo que $f\left( 2\right) = 1$, determine o valor de:
+\begin{multicols}{3}
+\begin{enumerate}[(a)]
+\item    $f\left( 1\right)$
+\item    $f\left( 7\right)$
+\item    $f\left( x\right)$
+\end{enumerate}
+\end{multicols}
+\end{prob}
+
+\begin{prob}
+Um proj\'{e}til \'{e} lan\c{c}ado e tem a sua altura (em metros) dada pela fun\c{c}\~{a}o $h\left( t\right) =100t-5t^{2}$. A partir desta calcule:
+\begin{multicols}{2}
+\begin{enumerate}[(a)]
+\item    O tempo em que o proj\'{e}til permanece no ar
+\item    A altura m\'{a}xima atingida pelo  proj\'{e}til
+\end{enumerate}
+\end{multicols}
+\end{prob}
+
+\begin{prob}
+Uma fun\c{c}\~{a}o $f\left( x\right) =ax+b$ passa pelos pontos $\left( 3;5\right)$ e $\left( 5;9\right) $. Calcule $a$ e $b$ e desenhe o gr\'{a}fico da equa\c{c}\~{a}o.
+\end{prob}
+
+\begin{prob}
+Daniel pretende contratar um plano de telefonia fixa. A empresa A cobra R\$25,00 de mensalidade fixa mais R\$0,10 por minuto de liga\c{c}\~{a}o. A empresa B cobra R\$35,00 de mensalidade fixa e mais R\$0,05 por minuto de liga\c{c}\~{a}o. Sendo assim, calcule o n\'{u}mero m\'{\i}nimo de minutos que Daniel deve usar para que o plano da empresa B seja mais vantajoso do que o da empresa A. Represente graficamente o resultado.
+\end{prob}
+
+\begin{res}
+\begin{multicols}{2}
+
+\begin{enumerate}[(1)]
+
+\item\begin{enumerate}[(a)]
+\item $55$
+\item $7 - 4 a + 2 a^{2} - 4 b + 4 a b + 2 b^{2}$
+\item $2x^{2}+4x+7$
+\end{enumerate}
+
+\item\begin{enumerate}[(a)]
+\item $x^{2}+5x+6$
+\item $x^{2}-x+3$
+\end{enumerate}
+
+\item $\dfrac{f\left( x+h\right) -f\left( x\right) }{h}=2x+h$
+
+\item $f\left( 20\right)=44$
+
+\item\begin{enumerate}[(a)]
+\item $Im=[-4;+\infty[$
+\item $Im=[-\dfrac{1}{4};+\infty[$
+\item $Im=[\dfrac{3}{4};+\infty[$
+\end{enumerate}
+\columnbreak
+\item \begin{itemize}
+  \item Dom\'{\i}nio = $\{ -1;2;4;5\}$
+  \item Contradom\'{\i}nio = $\{-7;-4;-1;0;4;8;17\}$
+  \item Imagem = $\{-7;-4;8;17\}$
+\end{itemize}
+
+\item $a=-1$
+
+\item\begin{enumerate}[(a)]
+\item $f\left( 1\right)=\dfrac{1}{2}$
+\item  $f\left( 7\right)=\dfrac{7}{2}$
+\item  $f\left( x\right)=\dfrac{x}{2}$
+\end{enumerate}
+
+\item\begin{enumerate}[(a)]
+\item $t=20s$
+\item  $h_{max}=500m$
+\end{enumerate}
+
+\item $a=2$ e $b=-1$
+
+\item $200$ minutos
+
+\end{enumerate}
+\end{multicols}
+\end{res}
+\end{document}

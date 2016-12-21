@@ -1,0 +1,114 @@
+% Load environment
+\input{Base/env.tex}
+
+% Begin document
+\begin{document}\pagestyle{empty}
+% {Nome da Aula}{Professores}{Matéria da Aula}{Data}
+\cabeca{Aula 0}{Anon}{Exemplos}{01/01/2042}
+\newcounter{problema}
+
+% Para adicionar um problema novo, use
+% \begin{prob}
+%   ...
+% \end{prob}
+
+Exemplo de Problema:
+\begin{prob}
+    Dado o gráfico de $f\left( x\right)$, calcule $f\left( 20\right)$
+
+
+    \begin{tikzpicture}
+        \begin{axis}[ xmin=-4,xmax=1, xlabel=$x$, ylabel=$f\left( x\right)$,grid=both, mark=none ]
+            \addplot {2*x+4};
+        \end{axis}
+    \end{tikzpicture}
+\end{prob}
+\\\\
+% Para adicionar uma solução, use:
+% \begin{solu}
+%     ...
+% \end{solu}
+
+Exemplo de Solução:
+\begin{solu}
+    Separe uma das moedas e coloque as outras $24$ na balança, com $12$ em cada prato. Temos duas possibilidades:
+    \begin{enumerate}[(1)]
+        \item
+            A balança equilibra. Neste caso, concluímos que a moeda falsa é a que não está na balança e todas as que estão na balança são verdadeiras. Basta realizar uma nova pesagem com a moeda falsa e uma outra moeda qualquer.
+        \item
+            A balança não equilibra. Pegamos as $12$ moedas do prato mais leve e colocamos novamente na balança com $6$ moedas em cada prato. Temos novamente dois casos.
+        \begin{enumerate}
+            \item
+                Se a balança equilibrar, então todas as $12$ moedas são verdadeiras e podemos  concluir que a moeda falsa era uma das outras $12$ do grupo mais pesado. Portanto, neste caso, a moeda  falsa é mais pesada.
+            \item
+                Se a balança não equilibrar, a moeda falsa é uma destas $12$ moedas e como este grupo é mais leve que o outro, concluímos que a moeda falsa é mais leve.
+        \end{enumerate}
+    \end{enumerate}
+\end{solu}
+
+\\\\
+% Para adicionar uma resposta, use:
+% \begin{res}
+%     ...
+% \end{res}
+
+Exemplo de Resposta:
+\begin{res}
+    \begin{multicols}{2}
+
+        \begin{enumerate}[(1)]
+
+            \item
+                \begin{enumerate}[(a)]
+                    \item $55$
+                    \item $7 - 4 a + 2 a^{2} - 4 b + 4 a b + 2 b^{2}$
+                    \item $2x^{2}+4x+7$
+                \end{enumerate}
+
+            \item
+                \begin{enumerate}[(a)]
+                    \item $x^{2}+5x+6$
+                    \item $x^{2}-x+3$
+                \end{enumerate}
+
+            \item $\dfrac{f\left( x+h\right) -f\left( x\right) }{h}=2x+h$
+
+            \item $f\left( 20\right)=44$
+
+            \item
+                \begin{enumerate}[(a)]
+                    \item $Im=[-4;+\infty[$
+                    \item $Im=[-\dfrac{1}{4};+\infty[$
+                    \item $Im=[\dfrac{3}{4};+\infty[$
+                \end{enumerate}
+            \columnbreak
+            \item
+                \begin{itemize}
+                    \item Dom\'{\i}nio = $\{ -1;2;4;5\}$
+                    \item Contradom\'{\i}nio = $\{-7;-4;-1;0;4;8;17\}$
+                    \item Imagem = $\{-7;-4;8;17\}$
+              \end{itemize}
+
+            \item $a=-1$
+
+            \item
+                \begin{enumerate}[(a)]
+                    \item $f\left( 1\right)=\dfrac{1}{2}$
+                    \item  $f\left( 7\right)=\dfrac{7}{2}$
+                    \item  $f\left( x\right)=\dfrac{x}{2}$
+                \end{enumerate}
+
+            \item
+                \begin{enumerate}[(a)]
+                    \item $t=20s$
+                    \item  $h_{max}=500m$
+                \end{enumerate}
+
+            \item $a=2$ e $b=-1$
+
+            \item $200$ minutos
+
+        \end{enumerate}
+    \end{multicols}
+\end{res}
+\end{document}
