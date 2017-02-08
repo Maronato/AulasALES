@@ -1,19 +1,3 @@
-\documentclass[12pt]{article}
-%\usepackage[cam]{crop}
-\usepackage{tikz,tkz-euclide,tkz-base}
-\usetkzobj{all}
-\usetikzlibrary{decorations.pathmorphing}
-\usepackage[portuges]{babel}
-\usepackage{amssymb,euler,fontspec,multicol,xcolor,pstricks,setspace,amsmath,enumerate,pstricks,ifthen,multido,titlesec,pst-eucl,pgfplots}
-\usepackage{xunicode}
-\defaultfontfeatures{Mapping=tex-text}
-\setmainfont[Path = Base/fonts/, Scale=1]{Roboto-Light.ttf}
-\setsansfont[Path = Base/fonts/, Scale=1]{Roboto-Bold.ttf}
-\setmonofont[Path = Base/fonts/, Scale=1]{Roboto-Thin.ttf}
-\XeTeXinputencoding  Latin1
-\usepackage[paperwidth=21cm,paperheight=29.7cm,margin=1cm,bottom=1.5cm]{geometry}
-\onehalfspacing
-\usepackage{amsmath,amsthm,amsfonts,amssymb,amscd}
 
 
 % %Ambiente Exemplo
